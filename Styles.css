@@ -1,0 +1,62 @@
+/* Reset y fuente */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fondo de la página */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f8f8f8;
+}
+
+/* Contenedor del login */
+.login-container {
+    width: 300px;
+    text-align: center;
+}
+
+/* Logo */
+.logo img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+/* Caja del formulario */
+.form-container {
+    background: #7d75f5;
+    padding: 30px 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Campos de entrada */
+.form-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Botón de login */
+.login-button {
+    background: #1200c7;
+    color: white;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
