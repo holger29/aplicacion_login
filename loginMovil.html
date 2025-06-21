@@ -3,19 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Figma</title>
     <link rel="stylesheet" href="styles.css">
+    <title>Login Figma</title>
 </head>
 <body>
     <div class="login-container">
         <div class="logo">
             <img src="figma_logo.png" alt="Figma Logo">
         </div>
-        <div class="form-container">
-            <input type="email" placeholder="E-mail:">
-            <input type="password" placeholder="Password:">
-            <button class="login-button">Entrar</button>
-        </div>
+
+        <!-- FORMULARIO REAL -->
+        <form class="form-container" action="datos.php" method="post">
+            <input type="text" name="nombres" placeholder="Nombres" required>
+            <input type="text" name="apellidos" placeholder="Apellidos" required>
+            <input type="number" name="edad" placeholder="Edad" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="tel" name="telefono" placeholder="Teléfono" required>
+            <input type="text" name="direccion" placeholder="Dirección de residencia" required>
+            <input type="text" name="ciudad" placeholder="Ciudad" required>
+            <input type="password" name="contrasena" placeholder="Contraseña" required>
+
+            <button type="submit" class="login-button">Registrarse</button>
+
+            <p style="margin-top: 15px; color: white;">
+                ¿Ya estás registrado?
+                <a href="inicioSesionMovil.html" style="color: #ffd700; text-decoration: underline;">Inicia sesión</a>
+            </p>
+        </form>
     </div>
 </body>
 </html>

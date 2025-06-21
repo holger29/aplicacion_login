@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Inicio de sesión</title>
+</head>
+<body>
+    <div class="login-container">
+        <div class="logo">
+            <img src="figma_logo.png" alt="Figma Logo">
+        </div>
+
+        <form class="form-container" action="login.php" method="post">
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="password" name="contrasena" placeholder="Contraseña" required>
+
+            <button type="submit" class="login-button">Entrar</button>
+
+            <p style="margin-top: 15px; color: white;">
+                ¿Aún no tienes cuenta?
+                <a href="loginMovil.html" style="color: #ffd700; text-decoration: underline;">Regístrate aquí</a>
+            </p>
+        </form>
+    </div>
+</body>
+</html>
